@@ -10,7 +10,10 @@ btnMenuOpen.addEventListener('click', function() {
 
 btnMenuClose.addEventListener('click', function() {
     navigation.classList.add('hidden');
-});
+    setTimeout(function(){
+        navigation.classList.remove('transition');
+    }, 500);
+})
 
 const slider = document.querySelector("#slider");
 let sliderSection = document.querySelectorAll(".slider__section")
@@ -31,7 +34,7 @@ function Next() {
 
 setInterval(function(){
     Next();
-},5000);
+},4000);
 
 setInterval(function(){
     Nextlogo();
@@ -51,13 +54,6 @@ function Nextlogo() {
         sliderLogo.style.marginLeft = "-0.1%";
     }, 1);
 }
-
-
-
-
-
-
-
 
 
 

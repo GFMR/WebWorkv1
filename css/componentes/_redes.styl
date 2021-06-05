@@ -1,0 +1,61 @@
+.Main__section
+    .redes--container
+        padding-top: 2rem
+        width: 100%
+        display: flex
+        justify-content: center
+        .redes--items
+            div  
+                margin 1rem
+                border-radius: 5rem
+                background-color: #ff4060
+                width 7rem
+                height 7rem
+                text-align: center
+                span
+                    line-height: 7rem
+                    font-size: 4rem
+                    color white
+                    transition: 0.3s
+
+        .redes--items:hover
+            div
+                span
+                    transform: scale(0.8)
+                    transition: 0.3s
+
+@media screen and (max-width 400px)
+    .Main__section
+        .redes--container
+            .redes--items
+                    div
+                        margin-bottom: 2rem
+                        width 5.5rem
+                        height 5.5rem
+                        span
+                            line-height: 5.5rem
+                            font-size: 3rem
+
+@media screen and (min-width 900px)
+    .Main__section
+        .redes--container
+            width: 100%
+            display: flex
+            justify-content: start
+            margin-left: 1rem
+            position relative
+            z-index 100
+            top 9rem
+            .redes--items
+                div
+                    margin 1rem
+                    border-radius: 5rem
+                    background-color: #ff4060
+                    width 6rem
+                    height 6rem
+                    text-align: center
+                    span
+                        line-height: 6rem
+                        font-size: 3.5rem
+                        color white
+                        transition: 0.3s

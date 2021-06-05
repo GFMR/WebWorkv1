@@ -421,9 +421,6 @@ body {
   height: 100%;
 }
 @media screen and (min-width: 900px) {
-  .information--container {
-    height: 78.5rem;
-  }
   .information--container p {
     width: 98%;
     padding-top: 1rem;

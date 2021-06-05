@@ -31,7 +31,7 @@ function Next() {
 
 setInterval(function(){
     Next();
-},5000);
+},3500);
 
 setInterval(function(){
     Nextlogo();

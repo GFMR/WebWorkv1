@@ -1,0 +1,44 @@
+.Main__section
+    .images--section
+        width 100%
+        display flex
+        margin-bottom: calc(-11%)
+        .images--items
+            width 25%
+            .img--container
+                img
+                    transition: 0.3s
+                    width 100%
+                    height 15vw
+                    max-height: 15rem
+            .text--img--container
+                transition: 0.3s
+                position: relative
+                bottom: 0.5rem
+                background-color: #ff4060
+                width 100%
+                height 3.5rem
+                color: white
+                font-size: 1.2rem
+                line-height: 3.5rem
+                text-align: center
+                font-weight: 700
+                p   
+                    transition: 0.3s
+
+    .images--items:hover
+        .img--container
+            img
+                transition: 0.3s
+                filter: brightness(70%)
+        .text--img--container
+                transition: 0.3s
+                background-color: #DC2443 
+            p  
+                transform: scale(0.9)
+                transition: 0.3s
+
+@media screen and (max-width 900px)
+    .Main__section
+        .images--section
+            display: none
